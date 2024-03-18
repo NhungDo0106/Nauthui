@@ -18,6 +18,8 @@ public class CustomerPage {
     private By inputSearchCustomer = By.xpath("//div[@id='DataTables_Table_0_filter']//input[@type = \"search\"]");
     private By inputSearchCustomer1 = By.xpath("//div[@id='top_search']//input[@type = \"search\"]");
 
+    csdsvdvfcvcxvcvcvcxvf
+
 
     //Customer List
     private By inputSearchCustomers = By.xpath("//input[@class='form-control input-sm']");
