@@ -1,0 +1,573 @@
+[INFO] 14-03-2024 18:27:37 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[INFO] 14-03-2024 18:27:40 [TestNG-PoolService-0] LogUtils - onTestStart: testLoginSuccess
+[INFO] 14-03-2024 18:27:42 [TestNG-PoolService-0] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 14-03-2024 18:27:42 [TestNG-PoolService-0] LogUtils - Set text admin@example.com on input By.xpath: //input[@id ='email']
+[INFO] 14-03-2024 18:27:42 [TestNG-PoolService-0] LogUtils - Set text 123456 on input By.xpath: //input[@id ='password']
+[INFO] 14-03-2024 18:27:43 [TestNG-PoolService-0] LogUtils - Click on element: By.xpath: //button[@type ='submit']
+[INFO] 14-03-2024 18:27:43 [TestNG-PoolService-0] LogUtils - Success: testLoginSuccessis successfully
+[INFO] 14-03-2024 18:27:43 [TestNG-PoolService-0] LogUtils - Screenshot taken: testLoginSuccess
+[INFO] 14-03-2024 18:27:43 [TestNG-PoolService-0] LogUtils - Screenshot taken current URL: https://crm.anhtester.com/admin/
+[INFO] 14-03-2024 18:27:43 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 15-03-2024 12:43:00 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[INFO] 15-03-2024 12:43:02 [main] LogUtils - onTestStart: testOpenCustomer
+[INFO] 15-03-2024 12:43:03 [main] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[ERROR] 15-03-2024 12:43:03 [main] LogUtils - Fail: testOpenCustomeris Fail
+[INFO] 15-03-2024 12:43:03 [main] LogUtils - Screenshot taken: testOpenCustomer
+[INFO] 15-03-2024 12:43:03 [main] LogUtils - Screenshot taken current URL: https://crm.anhtester.com/admin/authentication
+[INFO] 15-03-2024 12:43:04 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 15-03-2024 12:46:05 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[INFO] 15-03-2024 12:46:07 [main] LogUtils - onTestStart: testOpenCustomer
+[INFO] 15-03-2024 12:46:08 [main] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[ERROR] 15-03-2024 12:46:08 [main] LogUtils - Fail: testOpenCustomeris Fail
+[INFO] 15-03-2024 12:46:08 [main] LogUtils - Screenshot taken: testOpenCustomer
+[INFO] 15-03-2024 12:46:08 [main] LogUtils - Screenshot taken current URL: https://crm.anhtester.com/admin/authentication
+[INFO] 15-03-2024 12:46:08 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 15-03-2024 15:26:00 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[INFO] 15-03-2024 15:26:06 [TestNG-PoolService-0] LogUtils - onTestStart: testLoginSuccess
+[INFO] 15-03-2024 15:26:07 [TestNG-PoolService-0] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 15-03-2024 15:26:07 [TestNG-PoolService-0] LogUtils - Set text admin@example.com on input By.xpath: //input[@id ='email']
+[INFO] 15-03-2024 15:26:07 [TestNG-PoolService-0] LogUtils - Set text 123456 on input By.xpath: //input[@id ='password']
+[INFO] 15-03-2024 15:26:08 [TestNG-PoolService-0] LogUtils - Click on element: By.xpath: //button[@type ='submit']
+[INFO] 15-03-2024 15:26:08 [TestNG-PoolService-0] LogUtils - Success: testLoginSuccessis successfully
+[INFO] 15-03-2024 15:26:08 [TestNG-PoolService-0] LogUtils - Screenshot taken: testLoginSuccess
+[INFO] 15-03-2024 15:26:08 [TestNG-PoolService-0] LogUtils - Screenshot taken current URL: https://crm.anhtester.com/admin/
+[INFO] 15-03-2024 15:26:10 [TestNG-PoolService-0] LogUtils - onTestStart: testLoginWithEmailInvalid
+[INFO] 15-03-2024 15:26:11 [TestNG-PoolService-0] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 15-03-2024 15:26:11 [TestNG-PoolService-0] LogUtils - Set text admin123@example.com on input By.xpath: //input[@id ='email']
+[INFO] 15-03-2024 15:26:11 [TestNG-PoolService-0] LogUtils - Set text 123456 on input By.xpath: //input[@id ='password']
+[INFO] 15-03-2024 15:26:11 [TestNG-PoolService-0] LogUtils - Click on element: By.xpath: //button[@type ='submit']
+[INFO] 15-03-2024 15:26:11 [TestNG-PoolService-0] LogUtils - Get text of element: By.xpath: //div[@id='alerts']is: Invalid email or password
+[INFO] 15-03-2024 15:26:11 [TestNG-PoolService-0] LogUtils - Success: testLoginWithEmailInvalidis successfully
+[INFO] 15-03-2024 15:26:11 [TestNG-PoolService-0] LogUtils - Screenshot taken: testLoginWithEmailInvalid
+[INFO] 15-03-2024 15:26:11 [TestNG-PoolService-0] LogUtils - Screenshot taken current URL: https://crm.anhtester.com/admin/authentication
+[INFO] 15-03-2024 15:26:13 [TestNG-PoolService-0] LogUtils - onTestStart: testLoginWithPasswordInvalid
+[INFO] 15-03-2024 15:26:13 [TestNG-PoolService-0] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 15-03-2024 15:26:13 [TestNG-PoolService-0] LogUtils - Set text admin@example.com on input By.xpath: //input[@id ='email']
+[INFO] 15-03-2024 15:26:13 [TestNG-PoolService-0] LogUtils - Set text 1234567 on input By.xpath: //input[@id ='password']
+[INFO] 15-03-2024 15:26:13 [TestNG-PoolService-0] LogUtils - Click on element: By.xpath: //button[@type ='submit']
+[INFO] 15-03-2024 15:26:13 [TestNG-PoolService-0] LogUtils - Get text of element: By.xpath: //div[@id='alerts']is: Invalid email or password
+[INFO] 15-03-2024 15:26:13 [TestNG-PoolService-0] LogUtils - Success: testLoginWithPasswordInvalidis successfully
+[INFO] 15-03-2024 15:26:13 [TestNG-PoolService-0] LogUtils - Screenshot taken: testLoginWithPasswordInvalid
+[INFO] 15-03-2024 15:26:13 [TestNG-PoolService-0] LogUtils - Screenshot taken current URL: https://crm.anhtester.com/admin/authentication
+[INFO] 15-03-2024 15:26:13 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 15-03-2024 15:28:51 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[INFO] 15-03-2024 15:28:53 [main] LogUtils - onTestStart: testOpenCustomer
+[INFO] 15-03-2024 15:28:53 [main] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[ERROR] 15-03-2024 15:28:54 [main] LogUtils - Fail: testOpenCustomeris Fail
+[INFO] 15-03-2024 15:28:54 [main] LogUtils - Screenshot taken: testOpenCustomer
+[INFO] 15-03-2024 15:28:54 [main] LogUtils - Screenshot taken current URL: https://crm.anhtester.com/admin/authentication
+[INFO] 15-03-2024 15:28:54 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 15-03-2024 15:29:16 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[INFO] 15-03-2024 15:29:18 [main] LogUtils - onTestStart: testOpenCustomer
+[INFO] 15-03-2024 15:36:23 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[INFO] 15-03-2024 15:36:25 [main] LogUtils - onTestStart: testOpenCustomer
+[INFO] 15-03-2024 15:36:27 [main] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[ERROR] 15-03-2024 15:36:27 [main] LogUtils - Fail: testOpenCustomeris Fail
+[INFO] 15-03-2024 15:36:27 [main] LogUtils - Screenshot taken: testOpenCustomer
+[INFO] 15-03-2024 15:36:27 [main] LogUtils - Screenshot taken current URL: https://crm.anhtester.com/admin/authentication
+[INFO] 15-03-2024 15:36:27 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 15-03-2024 15:38:01 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[INFO] 15-03-2024 15:38:03 [main] LogUtils - onTestStart: testOpenCustomer
+[INFO] 15-03-2024 15:38:04 [main] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 15-03-2024 15:38:04 [main] LogUtils - Set text admin@example.com on input By.xpath: //input[@id ='email']
+[INFO] 15-03-2024 15:38:04 [main] LogUtils - Set text 123456 on input By.xpath: //input[@id ='password']
+[INFO] 15-03-2024 15:38:05 [main] LogUtils - Click on element: By.xpath: //button[@type ='submit']
+[INFO] 15-03-2024 15:38:05 [main] LogUtils - Click on element: By.xpath: //span[normalize-space()='Customers']
+[INFO] 15-03-2024 15:38:05 [main] LogUtils - Get text of element: By.xpath: //span[normalize-space()='Customers Summary']is: Customers Summary
+[INFO] 15-03-2024 15:38:05 [main] LogUtils - Success: testOpenCustomeris successfully
+[INFO] 15-03-2024 15:38:05 [main] LogUtils - Screenshot taken: testOpenCustomer
+[INFO] 15-03-2024 15:38:05 [main] LogUtils - Screenshot taken current URL: https://crm.anhtester.com/admin/clients
+[INFO] 15-03-2024 15:38:06 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 15-03-2024 15:49:37 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[INFO] 15-03-2024 15:49:39 [main] LogUtils - onTestStart: testOpenCustomer
+[INFO] 15-03-2024 15:49:40 [main] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[ERROR] 15-03-2024 15:49:40 [main] LogUtils - Fail: testOpenCustomeris Fail
+[INFO] 15-03-2024 15:49:40 [main] LogUtils - Screenshot taken: testOpenCustomer
+[INFO] 15-03-2024 15:49:40 [main] LogUtils - Screenshot taken current URL: https://crm.anhtester.com/admin/authentication
+[INFO] 15-03-2024 15:49:41 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 15-03-2024 15:50:05 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[INFO] 15-03-2024 15:50:06 [main] LogUtils - onTestStart: testOpenCustomer
+[INFO] 15-03-2024 15:50:07 [main] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 15-03-2024 15:50:07 [main] LogUtils - Set text admin@example.com on input By.xpath: //input[@id ='email']
+[INFO] 15-03-2024 15:50:07 [main] LogUtils - Set text 123456 on input By.xpath: //input[@id ='password']
+[INFO] 15-03-2024 15:50:08 [main] LogUtils - Click on element: By.xpath: //button[@type ='submit']
+[INFO] 15-03-2024 15:50:08 [main] LogUtils - Click on element: By.xpath: //span[normalize-space()='Customers']
+[INFO] 15-03-2024 15:50:12 [main] LogUtils - Success: testOpenCustomeris successfully
+[INFO] 15-03-2024 15:50:12 [main] LogUtils - Screenshot taken: testOpenCustomer
+[INFO] 15-03-2024 15:50:12 [main] LogUtils - Screenshot taken current URL: https://crm.anhtester.com/admin/clients
+[INFO] 15-03-2024 15:50:12 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 15-03-2024 15:50:44 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[INFO] 15-03-2024 15:50:45 [main] LogUtils - onTestStart: testOpenCustomer
+[INFO] 15-03-2024 15:50:46 [main] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 15-03-2024 15:50:46 [main] LogUtils - Set text admin@example.com on input By.xpath: //input[@id ='email']
+[INFO] 15-03-2024 15:50:46 [main] LogUtils - Set text 123456 on input By.xpath: //input[@id ='password']
+[INFO] 15-03-2024 15:50:47 [main] LogUtils - Click on element: By.xpath: //button[@type ='submit']
+[INFO] 15-03-2024 15:50:47 [main] LogUtils - Click on element: By.xpath: //span[normalize-space()='Customers']
+[INFO] 15-03-2024 15:50:47 [main] LogUtils - Click on element: By.xpath: //a[normalize-space()='New Customer']
+[INFO] 15-03-2024 15:50:51 [main] LogUtils - Success: testOpenCustomeris successfully
+[INFO] 15-03-2024 15:50:51 [main] LogUtils - Screenshot taken: testOpenCustomer
+[INFO] 15-03-2024 15:50:51 [main] LogUtils - Screenshot taken current URL: https://crm.anhtester.com/admin/clients/client
+[INFO] 15-03-2024 15:50:52 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 15-03-2024 15:57:07 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[INFO] 15-03-2024 15:57:10 [main] LogUtils - onTestStart: addNewCustomer
+[INFO] 15-03-2024 15:57:11 [main] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 15-03-2024 15:57:11 [main] LogUtils - Set text admin@example.com on input By.xpath: //input[@id ='email']
+[INFO] 15-03-2024 15:57:11 [main] LogUtils - Set text 123456 on input By.xpath: //input[@id ='password']
+[INFO] 15-03-2024 15:57:12 [main] LogUtils - Click on element: By.xpath: //button[@type ='submit']
+[INFO] 15-03-2024 15:57:12 [main] LogUtils - Click on element: By.xpath: //span[normalize-space()='Customers']
+[INFO] 15-03-2024 15:57:12 [main] LogUtils - Click on element: By.xpath: //a[normalize-space()='New Customer']
+[INFO] 15-03-2024 15:57:16 [main] LogUtils - Success: addNewCustomeris successfully
+[INFO] 15-03-2024 15:57:16 [main] LogUtils - Screenshot taken: addNewCustomer
+[INFO] 15-03-2024 15:57:16 [main] LogUtils - Screenshot taken current URL: https://crm.anhtester.com/admin/clients/client
+[INFO] 15-03-2024 15:57:17 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 15-03-2024 17:36:55 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[ERROR] 15-03-2024 17:36:55 [main] LogUtils - Fail: addNewCustomeris Fail
+[INFO] 15-03-2024 17:36:55 [main] LogUtils - Exception while taking screenshot: null
+[INFO] 15-03-2024 17:36:55 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 15-03-2024 18:20:30 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[ERROR] 15-03-2024 18:20:30 [main] LogUtils - Fail: addNewCustomeris Fail
+[INFO] 15-03-2024 18:20:30 [main] LogUtils - Exception while taking screenshot: null
+[INFO] 15-03-2024 18:20:30 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 15-03-2024 18:21:37 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[INFO] 15-03-2024 18:21:40 [TestNG-PoolService-0] LogUtils - onTestStart: testLoginSuccess
+[INFO] 15-03-2024 18:21:41 [TestNG-PoolService-0] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 15-03-2024 18:21:41 [TestNG-PoolService-0] LogUtils - Set text admin@example.com on input By.xpath: //input[@id ='email']
+[INFO] 15-03-2024 18:21:41 [TestNG-PoolService-0] LogUtils - Set text 123456 on input By.xpath: //input[@id ='password']
+[INFO] 15-03-2024 18:21:42 [TestNG-PoolService-0] LogUtils - Click on element: By.xpath: //button[@type ='submit']
+[INFO] 15-03-2024 18:21:42 [TestNG-PoolService-0] LogUtils - Success: testLoginSuccessis successfully
+[INFO] 15-03-2024 18:21:42 [TestNG-PoolService-0] LogUtils - Screenshot taken: testLoginSuccess
+[INFO] 15-03-2024 18:21:42 [TestNG-PoolService-0] LogUtils - Screenshot taken current URL: https://crm.anhtester.com/admin/
+[INFO] 15-03-2024 18:21:42 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 15-03-2024 18:22:28 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[INFO] 15-03-2024 18:22:29 [main] LogUtils - onTestStart: testLoginSuccess
+[INFO] 15-03-2024 18:22:30 [main] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[ERROR] 15-03-2024 18:22:30 [main] LogUtils - Fail: testLoginSuccessis Fail
+[INFO] 15-03-2024 18:22:30 [main] LogUtils - Screenshot taken: testLoginSuccess
+[INFO] 15-03-2024 18:22:30 [main] LogUtils - Screenshot taken current URL: https://crm.anhtester.com/admin/authentication
+[INFO] 15-03-2024 18:22:32 [TestNG-PoolService-0] LogUtils - onTestStart: testLoginSuccess
+[INFO] 15-03-2024 18:22:32 [TestNG-PoolService-0] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 15-03-2024 18:22:32 [TestNG-PoolService-0] LogUtils - Set text admin@example.com on input By.xpath: //input[@id ='email']
+[INFO] 15-03-2024 18:22:32 [TestNG-PoolService-0] LogUtils - Set text 123456 on input By.xpath: //input[@id ='password']
+[INFO] 15-03-2024 18:22:33 [TestNG-PoolService-0] LogUtils - Click on element: By.xpath: //button[@type ='submit']
+[INFO] 15-03-2024 18:22:33 [TestNG-PoolService-0] LogUtils - Success: testLoginSuccessis successfully
+[INFO] 15-03-2024 18:22:33 [TestNG-PoolService-0] LogUtils - Screenshot taken: testLoginSuccess
+[INFO] 15-03-2024 18:22:33 [TestNG-PoolService-0] LogUtils - Screenshot taken current URL: https://crm.anhtester.com/admin/
+[INFO] 15-03-2024 18:22:34 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 15-03-2024 18:23:46 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[INFO] 15-03-2024 18:23:47 [main] LogUtils - onTestStart: testLoginSuccess
+[INFO] 15-03-2024 18:23:48 [main] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[ERROR] 15-03-2024 18:23:48 [main] LogUtils - Fail: testLoginSuccessis Fail
+[INFO] 15-03-2024 18:23:48 [main] LogUtils - Screenshot taken: testLoginSuccess
+[INFO] 15-03-2024 18:23:48 [main] LogUtils - Screenshot taken current URL: https://crm.anhtester.com/admin/authentication
+[INFO] 15-03-2024 18:23:50 [TestNG-PoolService-0] LogUtils - onTestStart: testLoginSuccess
+[INFO] 15-03-2024 18:23:50 [TestNG-PoolService-0] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 15-03-2024 18:23:51 [TestNG-PoolService-0] LogUtils - Set text admin@example.com on input By.xpath: //input[@id ='email']
+[INFO] 15-03-2024 18:23:51 [TestNG-PoolService-0] LogUtils - Set text 123456 on input By.xpath: //input[@id ='password']
+[INFO] 15-03-2024 18:23:51 [TestNG-PoolService-0] LogUtils - Click on element: By.xpath: //button[@type ='submit']
+[INFO] 15-03-2024 18:23:51 [TestNG-PoolService-0] LogUtils - Success: testLoginSuccessis successfully
+[INFO] 15-03-2024 18:23:52 [TestNG-PoolService-0] LogUtils - Screenshot taken: testLoginSuccess
+[INFO] 15-03-2024 18:23:52 [TestNG-PoolService-0] LogUtils - Screenshot taken current URL: https://crm.anhtester.com/admin/
+[INFO] 15-03-2024 18:23:52 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 15-03-2024 21:22:26 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[INFO] 15-03-2024 21:22:29 [main] LogUtils - onTestStart: testLoginSuccess1
+[INFO] 15-03-2024 21:22:30 [main] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[ERROR] 15-03-2024 21:22:30 [main] LogUtils - Fail: testLoginSuccess1is Fail
+[INFO] 15-03-2024 21:22:31 [main] LogUtils - Screenshot taken: testLoginSuccess1
+[INFO] 15-03-2024 21:22:31 [main] LogUtils - Screenshot taken current URL: https://crm.anhtester.com/admin/authentication
+[INFO] 15-03-2024 21:22:31 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 15-03-2024 21:22:39 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[INFO] 15-03-2024 21:22:41 [main] LogUtils - onTestStart: testLoginSuccess1
+[INFO] 15-03-2024 21:23:23 [main] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[ERROR] 15-03-2024 21:23:29 [main] LogUtils - Fail: testLoginSuccess1is Fail
+[INFO] 15-03-2024 21:23:29 [main] LogUtils - Screenshot taken: testLoginSuccess1
+[INFO] 15-03-2024 21:23:29 [main] LogUtils - Screenshot taken current URL: https://crm.anhtester.com/admin/authentication
+[INFO] 15-03-2024 21:23:30 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 15-03-2024 21:24:03 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[INFO] 15-03-2024 21:24:05 [main] LogUtils - onTestStart: testLoginSuccess1
+[INFO] 15-03-2024 21:28:13 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[INFO] 15-03-2024 21:28:15 [main] LogUtils - onTestStart: testLoginSuccess1
+[INFO] 15-03-2024 21:28:16 [main] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 15-03-2024 21:28:17 [main] LogUtils - Set text admin@example.com on input By.xpath: //input[@id ='email']
+[INFO] 15-03-2024 21:28:17 [main] LogUtils - Set text 123456 on input By.xpath: //input[@id ='password']
+[INFO] 15-03-2024 21:28:18 [main] LogUtils - Click on element: By.xpath: //button[@type ='submit']
+[INFO] 15-03-2024 21:28:18 [main] LogUtils - java.awt.Dimension[width=1440,height=900]
+[INFO] 15-03-2024 21:28:18 [main] LogUtils - Click on element: By.xpath: //li[contains(@class,'icon header-user-profile')]
+[INFO] 15-03-2024 21:28:18 [main] LogUtils - Click on element: By.xpath: //ul[@class='dropdown-menu animated fadeIn']//li[@class='header-logout']//a[normalize-space()='Logout']
+[INFO] 15-03-2024 21:28:18 [main] LogUtils - Success: testLoginSuccess1is successfully
+[INFO] 15-03-2024 21:28:19 [main] LogUtils - Screenshot taken: testLoginSuccess1
+[INFO] 15-03-2024 21:28:19 [main] LogUtils - Screenshot taken current URL: https://crm.anhtester.com/admin/authentication
+[INFO] 15-03-2024 21:28:19 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 15-03-2024 21:28:49 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[INFO] 15-03-2024 21:28:51 [TestNG-PoolService-0] LogUtils - onTestStart: testLoginSuccess
+[INFO] 15-03-2024 21:28:52 [TestNG-PoolService-0] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 15-03-2024 21:28:52 [TestNG-PoolService-0] LogUtils - Set text admin@example.com on input By.xpath: //input[@id ='email']
+[INFO] 15-03-2024 21:28:52 [TestNG-PoolService-0] LogUtils - Set text 123456 on input By.xpath: //input[@id ='password']
+[INFO] 15-03-2024 21:28:53 [TestNG-PoolService-0] LogUtils - Click on element: By.xpath: //button[@type ='submit']
+[INFO] 15-03-2024 21:28:53 [TestNG-PoolService-0] LogUtils - Success: testLoginSuccessis successfully
+[INFO] 15-03-2024 21:28:53 [TestNG-PoolService-0] LogUtils - Screenshot taken: testLoginSuccess
+[INFO] 15-03-2024 21:28:53 [TestNG-PoolService-0] LogUtils - Screenshot taken current URL: https://crm.anhtester.com/admin/
+[INFO] 15-03-2024 21:28:53 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 15-03-2024 21:29:29 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[ERROR] 15-03-2024 21:29:29 [main] LogUtils - Fail: addNewCustomeris Fail
+[INFO] 15-03-2024 21:29:29 [main] LogUtils - Exception while taking screenshot: null
+[INFO] 15-03-2024 21:29:29 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 15-03-2024 21:57:28 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[INFO] 15-03-2024 21:57:30 [TestNG-PoolService-0] LogUtils - onTestStart: testLoginSuccess
+[INFO] 15-03-2024 21:57:32 [TestNG-PoolService-0] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 15-03-2024 21:57:32 [TestNG-PoolService-0] LogUtils - Set text admin@example.com on input By.xpath: //input[@id ='email']
+[INFO] 15-03-2024 21:57:32 [TestNG-PoolService-0] LogUtils - Set text 123456 on input By.xpath: //input[@id ='password']
+[INFO] 15-03-2024 21:57:33 [TestNG-PoolService-0] LogUtils - Click on element: By.xpath: //button[@type ='submit']
+[INFO] 15-03-2024 21:57:33 [TestNG-PoolService-0] LogUtils - Success: testLoginSuccessis successfully
+[INFO] 15-03-2024 21:57:33 [TestNG-PoolService-0] LogUtils - Screenshot taken: testLoginSuccess
+[INFO] 15-03-2024 21:57:33 [TestNG-PoolService-0] LogUtils - Screenshot taken current URL: https://crm.anhtester.com/admin/
+[INFO] 15-03-2024 21:57:33 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 15-03-2024 21:57:45 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[INFO] 15-03-2024 21:57:47 [TestNG-PoolService-0] LogUtils - onTestStart: testLoginSuccess
+[INFO] 15-03-2024 21:57:59 [TestNG-PoolService-0] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 15-03-2024 21:57:59 [TestNG-PoolService-0] LogUtils - Set text admin@example.com on input By.xpath: //input[@id ='email']
+[INFO] 15-03-2024 21:57:59 [TestNG-PoolService-0] LogUtils - Set text 123456 on input By.xpath: //input[@id ='password']
+[INFO] 15-03-2024 21:58:00 [TestNG-PoolService-0] LogUtils - Click on element: By.xpath: //button[@type ='submit']
+[INFO] 15-03-2024 21:58:00 [TestNG-PoolService-0] LogUtils - Success: testLoginSuccessis successfully
+[INFO] 15-03-2024 21:58:00 [TestNG-PoolService-0] LogUtils - Screenshot taken: testLoginSuccess
+[INFO] 15-03-2024 21:58:00 [TestNG-PoolService-0] LogUtils - Screenshot taken current URL: https://crm.anhtester.com/admin/
+[INFO] 15-03-2024 21:58:00 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 15-03-2024 21:58:28 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[INFO] 15-03-2024 22:00:57 [TestNG-PoolService-0] LogUtils - onTestStart: testLoginSuccess
+[INFO] 15-03-2024 22:00:58 [TestNG-PoolService-0] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 15-03-2024 22:00:59 [TestNG-PoolService-0] LogUtils - Set text admin@example.com on input By.xpath: //input[@id ='email']
+[INFO] 15-03-2024 22:00:59 [TestNG-PoolService-0] LogUtils - Set text 123456 on input By.xpath: //input[@id ='password']
+[INFO] 15-03-2024 22:00:59 [TestNG-PoolService-0] LogUtils - Click on element: By.xpath: //button[@type ='submit']
+[INFO] 15-03-2024 22:00:59 [TestNG-PoolService-0] LogUtils - Success: testLoginSuccessis successfully
+[INFO] 15-03-2024 22:00:59 [TestNG-PoolService-0] LogUtils - Screenshot taken: testLoginSuccess
+[INFO] 15-03-2024 22:00:59 [TestNG-PoolService-0] LogUtils - Screenshot taken current URL: https://crm.anhtester.com/admin/
+[INFO] 15-03-2024 22:01:00 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 15-03-2024 22:01:09 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[ERROR] 15-03-2024 22:01:43 [main] LogUtils - Fail: testLoginSuccessis Fail
+[INFO] 15-03-2024 22:01:43 [main] LogUtils - Exception while taking screenshot: null
+[INFO] 15-03-2024 22:01:43 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 15-03-2024 22:02:05 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[ERROR] 15-03-2024 22:03:26 [main] LogUtils - Fail: testLoginSuccessis Fail
+[INFO] 15-03-2024 22:03:37 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[ERROR] 15-03-2024 22:03:49 [main] LogUtils - Fail: testLoginSuccessis Fail
+[INFO] 15-03-2024 22:03:49 [main] LogUtils - Exception while taking screenshot: null
+[INFO] 15-03-2024 22:03:49 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 15-03-2024 22:03:56 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[ERROR] 15-03-2024 22:03:59 [main] LogUtils - Fail: testLoginSuccessis Fail
+[INFO] 15-03-2024 22:03:59 [main] LogUtils - Exception while taking screenshot: null
+[INFO] 15-03-2024 22:03:59 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 15-03-2024 22:10:15 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[INFO] 15-03-2024 22:10:51 [TestNG-PoolService-3] LogUtils - onTestStart: testLoginSuccess
+[INFO] 15-03-2024 22:10:51 [TestNG-PoolService-0] LogUtils - onTestStart: testLoginSuccess
+[INFO] 15-03-2024 22:10:51 [TestNG-PoolService-2] LogUtils - onTestStart: testLoginSuccess
+[INFO] 15-03-2024 22:10:51 [TestNG-PoolService-1] LogUtils - onTestStart: testLoginSuccess
+[INFO] 15-03-2024 22:15:26 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[INFO] 15-03-2024 22:16:06 [TestNG-PoolService-2] LogUtils - onTestStart: testLoginSuccess
+[INFO] 15-03-2024 22:16:06 [TestNG-PoolService-1] LogUtils - onTestStart: testLoginSuccess
+[INFO] 15-03-2024 22:16:06 [TestNG-PoolService-0] LogUtils - onTestStart: testLoginSuccess
+[INFO] 18-03-2024 10:18:17 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[ERROR] 18-03-2024 10:18:17 [main] LogUtils - Fail: addNewCustomeris Fail
+[INFO] 18-03-2024 10:18:17 [main] LogUtils - Exception while taking screenshot: null
+[INFO] 18-03-2024 10:18:17 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 18-03-2024 10:19:34 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[ERROR] 18-03-2024 10:19:34 [main] LogUtils - Fail: testLoginSuccessis Fail
+[INFO] 18-03-2024 10:19:34 [main] LogUtils - Exception while taking screenshot: null
+[INFO] 18-03-2024 10:19:34 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 18-03-2024 10:19:59 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[INFO] 18-03-2024 10:20:03 [TestNG-PoolService-0] LogUtils - onTestStart: testLoginSuccess
+[INFO] 18-03-2024 10:20:06 [TestNG-PoolService-0] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 18-03-2024 10:20:06 [TestNG-PoolService-0] LogUtils - Set text admin@example.com on input By.xpath: //input[@id ='email']
+[INFO] 18-03-2024 10:20:06 [TestNG-PoolService-0] LogUtils - Set text 123456 on input By.xpath: //input[@id ='password']
+[INFO] 18-03-2024 10:20:06 [TestNG-PoolService-0] LogUtils - Click on element: By.xpath: //button[@type ='submit']
+[INFO] 18-03-2024 10:20:07 [TestNG-PoolService-0] LogUtils - Success: testLoginSuccessis successfully
+[INFO] 18-03-2024 10:20:07 [TestNG-PoolService-0] LogUtils - Screenshot taken: testLoginSuccess
+[INFO] 18-03-2024 10:20:07 [TestNG-PoolService-0] LogUtils - Screenshot taken current URL: https://crm.anhtester.com/admin/
+[INFO] 18-03-2024 10:20:10 [TestNG-PoolService-1] LogUtils - onTestStart: testLoginSuccess
+[INFO] 18-03-2024 10:20:10 [TestNG-PoolService-0] LogUtils - onTestStart: testLoginSuccess
+[INFO] 18-03-2024 10:20:10 [TestNG-PoolService-2] LogUtils - onTestStart: testLoginSuccess
+[INFO] 18-03-2024 10:20:10 [TestNG-PoolService-1] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 18-03-2024 10:20:10 [TestNG-PoolService-0] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 18-03-2024 10:20:10 [TestNG-PoolService-2] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 18-03-2024 10:20:10 [TestNG-PoolService-1] LogUtils - Set text admin123@example.com on input By.xpath: //input[@id ='email']
+[INFO] 18-03-2024 10:20:10 [TestNG-PoolService-1] LogUtils - Set text 123456 on input By.xpath: //input[@id ='password']
+[INFO] 18-03-2024 10:20:10 [TestNG-PoolService-2] LogUtils - Set text admin@example.com on input By.xpath: //input[@id ='email']
+[INFO] 18-03-2024 10:20:10 [TestNG-PoolService-2] LogUtils - Set text 123 on input By.xpath: //input[@id ='password']
+[INFO] 18-03-2024 10:20:10 [TestNG-PoolService-1] LogUtils - Click on element: By.xpath: //button[@type ='submit']
+[ERROR] 18-03-2024 10:20:10 [TestNG-PoolService-1] LogUtils - Fail: testLoginSuccessis Fail
+[INFO] 18-03-2024 10:20:10 [TestNG-PoolService-2] LogUtils - Click on element: By.xpath: //button[@type ='submit']
+[INFO] 18-03-2024 10:20:10 [TestNG-PoolService-0] LogUtils - Set text admin@example.com on input By.xpath: //input[@id ='email']
+[ERROR] 18-03-2024 10:20:10 [TestNG-PoolService-2] LogUtils - Fail: testLoginSuccessis Fail
+[INFO] 18-03-2024 10:20:11 [TestNG-PoolService-1] LogUtils - Screenshot taken: testLoginSuccess
+[INFO] 18-03-2024 10:20:11 [TestNG-PoolService-0] LogUtils - Set text 123456 on input By.xpath: //input[@id ='password']
+[INFO] 18-03-2024 10:20:11 [TestNG-PoolService-1] LogUtils - Screenshot taken current URL: https://crm.anhtester.com/admin/authentication
+[INFO] 18-03-2024 10:20:11 [TestNG-PoolService-2] LogUtils - Screenshot taken: testLoginSuccess
+[INFO] 18-03-2024 10:20:11 [TestNG-PoolService-2] LogUtils - Screenshot taken current URL: https://crm.anhtester.com/admin/authentication
+[INFO] 18-03-2024 10:20:11 [TestNG-PoolService-0] LogUtils - Click on element: By.xpath: //button[@type ='submit']
+[INFO] 18-03-2024 10:20:11 [TestNG-PoolService-0] LogUtils - Success: testLoginSuccessis successfully
+[INFO] 18-03-2024 10:20:12 [TestNG-PoolService-0] LogUtils - Screenshot taken: testLoginSuccess
+[INFO] 18-03-2024 10:20:12 [TestNG-PoolService-0] LogUtils - Screenshot taken current URL: https://crm.anhtester.com/admin/
+[INFO] 18-03-2024 10:20:12 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 18-03-2024 10:36:30 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[ERROR] 18-03-2024 10:36:30 [main] LogUtils - Fail: testLoginSuccessis Fail
+[INFO] 18-03-2024 10:36:30 [main] LogUtils - Exception while taking screenshot: null
+[INFO] 18-03-2024 10:36:30 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 18-03-2024 10:39:16 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[INFO] 18-03-2024 10:39:19 [TestNG-PoolService-0] LogUtils - onTestStart: testLoginSuccess
+[INFO] 18-03-2024 10:39:20 [TestNG-PoolService-0] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 18-03-2024 10:39:20 [TestNG-PoolService-0] LogUtils - Set text admin@example.com on input By.xpath: //input[@id ='email']
+[INFO] 18-03-2024 10:39:20 [TestNG-PoolService-0] LogUtils - Set text 123456 on input By.xpath: //input[@id ='password']
+[INFO] 18-03-2024 10:39:21 [TestNG-PoolService-0] LogUtils - Click on element: By.xpath: //button[@type ='submit']
+[INFO] 18-03-2024 10:39:21 [TestNG-PoolService-0] LogUtils - Success: testLoginSuccessis successfully
+[INFO] 18-03-2024 10:39:21 [TestNG-PoolService-0] LogUtils - Screenshot taken: testLoginSuccess
+[INFO] 18-03-2024 10:39:21 [TestNG-PoolService-0] LogUtils - Screenshot taken current URL: https://crm.anhtester.com/admin/
+[INFO] 18-03-2024 10:39:22 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 18-03-2024 10:44:33 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[INFO] 18-03-2024 10:44:36 [TestNG-PoolService-0] LogUtils - onTestStart: testLoginSuccess
+[INFO] 18-03-2024 10:44:37 [TestNG-PoolService-0] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 18-03-2024 10:44:37 [TestNG-PoolService-0] LogUtils - Set text admin@example.com on input By.xpath: //input[@id ='email']
+[INFO] 18-03-2024 10:44:37 [TestNG-PoolService-0] LogUtils - Set text 123456 on input By.xpath: //input[@id ='password']
+[INFO] 18-03-2024 10:44:38 [TestNG-PoolService-0] LogUtils - Click on element: By.xpath: //button[@type ='submit']
+[INFO] 18-03-2024 10:44:38 [TestNG-PoolService-0] LogUtils - Success: testLoginSuccessis successfully
+[INFO] 18-03-2024 10:44:38 [TestNG-PoolService-0] LogUtils - Screenshot taken: testLoginSuccess
+[INFO] 18-03-2024 10:44:38 [TestNG-PoolService-0] LogUtils - Screenshot taken current URL: https://crm.anhtester.com/admin/
+[INFO] 18-03-2024 10:44:38 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 18-03-2024 10:45:56 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[ERROR] 18-03-2024 10:45:56 [main] LogUtils - Fail: testLoginSuccessis Fail
+[INFO] 18-03-2024 10:45:56 [main] LogUtils - Exception while taking screenshot: null
+[INFO] 18-03-2024 10:45:56 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 18-03-2024 10:47:59 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[ERROR] 18-03-2024 10:47:59 [main] LogUtils - Fail: testLoginSuccessis Fail
+[INFO] 18-03-2024 10:47:59 [main] LogUtils - Exception while taking screenshot: null
+[INFO] 18-03-2024 10:47:59 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 18-03-2024 10:49:01 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[ERROR] 18-03-2024 10:49:01 [main] LogUtils - Fail: testLoginSuccessis Fail
+[INFO] 18-03-2024 10:49:01 [main] LogUtils - Exception while taking screenshot: null
+[INFO] 18-03-2024 10:49:01 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 18-03-2024 10:49:13 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[ERROR] 18-03-2024 10:49:13 [main] LogUtils - Fail: testLoginSuccessis Fail
+[INFO] 18-03-2024 10:49:13 [main] LogUtils - Exception while taking screenshot: null
+[INFO] 18-03-2024 10:49:13 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 18-03-2024 10:52:57 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[INFO] 18-03-2024 10:52:59 [TestNG-PoolService-0] LogUtils - onTestStart: testLoginSuccess
+[INFO] 18-03-2024 10:53:00 [TestNG-PoolService-0] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 18-03-2024 10:53:01 [TestNG-PoolService-0] LogUtils - Set text admin@example.com on input By.xpath: //input[@id ='email']
+[INFO] 18-03-2024 10:53:01 [TestNG-PoolService-0] LogUtils - Set text 123456 on input By.xpath: //input[@id ='password']
+[INFO] 18-03-2024 10:53:02 [TestNG-PoolService-0] LogUtils - Click on element: By.xpath: //button[@type ='submit']
+[INFO] 18-03-2024 10:53:02 [TestNG-PoolService-0] LogUtils - Success: testLoginSuccessis successfully
+[INFO] 18-03-2024 10:53:02 [TestNG-PoolService-0] LogUtils - Screenshot taken: testLoginSuccess
+[INFO] 18-03-2024 10:53:02 [TestNG-PoolService-0] LogUtils - Screenshot taken current URL: https://crm.anhtester.com/admin/
+[INFO] 18-03-2024 10:53:03 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 18-03-2024 10:56:33 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[INFO] 18-03-2024 10:56:35 [TestNG-PoolService-0] LogUtils - onTestStart: testLoginSuccess
+[INFO] 18-03-2024 10:56:36 [TestNG-PoolService-0] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 18-03-2024 10:56:36 [TestNG-PoolService-0] LogUtils - Set text admin@example.com on input By.xpath: //input[@id ='email']
+[INFO] 18-03-2024 10:56:36 [TestNG-PoolService-0] LogUtils - Set text 123456 on input By.xpath: //input[@id ='password']
+[INFO] 18-03-2024 10:56:37 [TestNG-PoolService-0] LogUtils - Click on element: By.xpath: //button[@type ='submit']
+[INFO] 18-03-2024 10:56:37 [TestNG-PoolService-0] LogUtils - Success: testLoginSuccessis successfully
+[INFO] 18-03-2024 10:56:37 [TestNG-PoolService-0] LogUtils - Screenshot taken: testLoginSuccess
+[INFO] 18-03-2024 10:56:37 [TestNG-PoolService-0] LogUtils - Screenshot taken current URL: https://crm.anhtester.com/admin/
+[INFO] 18-03-2024 10:56:38 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 18-03-2024 10:56:54 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[INFO] 18-03-2024 10:56:57 [TestNG-PoolService-1] LogUtils - onTestStart: testLoginSuccess1
+[INFO] 18-03-2024 10:56:57 [TestNG-PoolService-0] LogUtils - onTestStart: testLoginSuccess1
+[INFO] 18-03-2024 10:56:58 [TestNG-PoolService-1] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 18-03-2024 10:56:58 [TestNG-PoolService-0] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 18-03-2024 10:56:58 [TestNG-PoolService-0] LogUtils - Set text admin2@example.com on input By.xpath: //input[@id ='email']
+[INFO] 18-03-2024 10:56:58 [TestNG-PoolService-1] LogUtils - Set text admin3@example.com on input By.xpath: //input[@id ='email']
+[INFO] 18-03-2024 10:56:58 [TestNG-PoolService-1] LogUtils - Set text 123456 on input By.xpath: //input[@id ='password']
+[INFO] 18-03-2024 10:56:58 [TestNG-PoolService-0] LogUtils - Set text 123456 on input By.xpath: //input[@id ='password']
+[INFO] 18-03-2024 10:56:58 [TestNG-PoolService-0] LogUtils - Click on element: By.xpath: //button[@type ='submit']
+[INFO] 18-03-2024 10:56:58 [TestNG-PoolService-1] LogUtils - Click on element: By.xpath: //button[@type ='submit']
+[ERROR] 18-03-2024 10:56:58 [TestNG-PoolService-1] LogUtils - Fail: testLoginSuccess1is Fail
+[ERROR] 18-03-2024 10:56:58 [TestNG-PoolService-0] LogUtils - Fail: testLoginSuccess1is Fail
+[INFO] 18-03-2024 10:56:58 [TestNG-PoolService-0] LogUtils - Screenshot taken: testLoginSuccess1
+[INFO] 18-03-2024 10:56:58 [TestNG-PoolService-1] LogUtils - Screenshot taken: testLoginSuccess1
+[INFO] 18-03-2024 10:56:58 [TestNG-PoolService-1] LogUtils - Screenshot taken current URL: https://crm.anhtester.com/admin/authentication
+[INFO] 18-03-2024 10:56:58 [TestNG-PoolService-0] LogUtils - Screenshot taken current URL: https://crm.anhtester.com/admin/authentication
+[ERROR] 18-03-2024 10:56:58 [main] LogUtils - Fail: testLoginSuccess1is Fail
+[INFO] 18-03-2024 10:56:58 [main] LogUtils - Exception while taking screenshot: null
+[INFO] 18-03-2024 10:56:59 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 18-03-2024 10:58:24 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[INFO] 18-03-2024 10:58:27 [TestNG-PoolService-1] LogUtils - onTestStart: testLoginSuccess1
+[INFO] 18-03-2024 10:58:27 [TestNG-PoolService-0] LogUtils - onTestStart: testLoginSuccess1
+[INFO] 18-03-2024 10:58:28 [TestNG-PoolService-0] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 18-03-2024 10:58:28 [TestNG-PoolService-1] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 18-03-2024 10:58:28 [TestNG-PoolService-1] LogUtils - Set text admin3@example.com on input By.xpath: //input[@id ='email']
+[INFO] 18-03-2024 10:58:28 [TestNG-PoolService-0] LogUtils - Set text admin2@example.com on input By.xpath: //input[@id ='email']
+[INFO] 18-03-2024 10:58:28 [TestNG-PoolService-1] LogUtils - Set text 123456 on input By.xpath: //input[@id ='password']
+[INFO] 18-03-2024 10:58:28 [TestNG-PoolService-0] LogUtils - Set text 123456 on input By.xpath: //input[@id ='password']
+[INFO] 18-03-2024 10:58:29 [TestNG-PoolService-0] LogUtils - Click on element: By.xpath: //button[@type ='submit']
+[INFO] 18-03-2024 10:58:29 [TestNG-PoolService-1] LogUtils - Click on element: By.xpath: //button[@type ='submit']
+[ERROR] 18-03-2024 10:58:29 [TestNG-PoolService-0] LogUtils - Fail: testLoginSuccess1is Fail
+[ERROR] 18-03-2024 10:58:29 [TestNG-PoolService-1] LogUtils - Fail: testLoginSuccess1is Fail
+[INFO] 18-03-2024 10:58:29 [TestNG-PoolService-0] LogUtils - Screenshot taken: testLoginSuccess1
+[INFO] 18-03-2024 10:58:29 [TestNG-PoolService-0] LogUtils - Screenshot taken current URL: https://crm.anhtester.com/admin/authentication
+[INFO] 18-03-2024 10:58:29 [TestNG-PoolService-1] LogUtils - Screenshot taken: testLoginSuccess1
+[INFO] 18-03-2024 10:58:29 [TestNG-PoolService-1] LogUtils - Screenshot taken current URL: https://crm.anhtester.com/admin/authentication
+[ERROR] 18-03-2024 10:58:29 [main] LogUtils - Fail: testLoginSuccess1is Fail
+[INFO] 18-03-2024 10:58:29 [main] LogUtils - Exception while taking screenshot: null
+[INFO] 18-03-2024 10:58:29 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 18-03-2024 11:08:07 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[INFO] 18-03-2024 11:08:11 [TestNG-PoolService-1] LogUtils - onTestStart: testLoginSuccess1
+[INFO] 18-03-2024 11:08:11 [TestNG-PoolService-0] LogUtils - onTestStart: testLoginSuccess1
+[INFO] 18-03-2024 11:08:12 [TestNG-PoolService-1] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 18-03-2024 11:08:12 [TestNG-PoolService-0] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 18-03-2024 11:08:12 [TestNG-PoolService-1] LogUtils - Set text admin3@example.com on input By.xpath: //input[@id ='email']
+[INFO] 18-03-2024 11:08:12 [TestNG-PoolService-0] LogUtils - Set text admin2@example.com on input By.xpath: //input[@id ='email']
+[INFO] 18-03-2024 11:08:13 [TestNG-PoolService-1] LogUtils - Set text 123456 on input By.xpath: //input[@id ='password']
+[INFO] 18-03-2024 11:08:13 [TestNG-PoolService-0] LogUtils - Set text 123456 on input By.xpath: //input[@id ='password']
+[INFO] 18-03-2024 11:08:13 [TestNG-PoolService-1] LogUtils - Click on element: By.xpath: //button[@type ='submit']
+[INFO] 18-03-2024 11:08:13 [TestNG-PoolService-0] LogUtils - Click on element: By.xpath: //button[@type ='submit']
+[ERROR] 18-03-2024 11:08:13 [TestNG-PoolService-1] LogUtils - Fail: testLoginSuccess1is Fail
+[ERROR] 18-03-2024 11:08:13 [TestNG-PoolService-0] LogUtils - Fail: testLoginSuccess1is Fail
+[INFO] 18-03-2024 11:08:13 [TestNG-PoolService-0] LogUtils - Screenshot taken: testLoginSuccess1
+[INFO] 18-03-2024 11:08:13 [TestNG-PoolService-1] LogUtils - Screenshot taken: testLoginSuccess1
+[INFO] 18-03-2024 11:08:13 [TestNG-PoolService-0] LogUtils - Screenshot taken current URL: https://crm.anhtester.com/admin/authentication
+[INFO] 18-03-2024 11:08:13 [TestNG-PoolService-1] LogUtils - Screenshot taken current URL: https://crm.anhtester.com/admin/authentication
+[ERROR] 18-03-2024 11:08:14 [main] LogUtils - Fail: testLoginSuccess1is Fail
+[INFO] 18-03-2024 11:08:14 [main] LogUtils - Exception while taking screenshot: null
+[INFO] 18-03-2024 11:08:14 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 18-03-2024 11:09:44 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[INFO] 18-03-2024 11:09:47 [TestNG-PoolService-0] LogUtils - onTestStart: testLoginSuccess1
+[INFO] 18-03-2024 11:09:47 [TestNG-PoolService-1] LogUtils - onTestStart: testLoginSuccess1
+[INFO] 18-03-2024 11:09:48 [TestNG-PoolService-1] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 18-03-2024 11:09:48 [TestNG-PoolService-0] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 18-03-2024 11:09:48 [TestNG-PoolService-1] LogUtils - Set text admin3@example.com on input By.xpath: //input[@id ='email']
+[INFO] 18-03-2024 11:09:48 [TestNG-PoolService-0] LogUtils - Set text admin@example.com on input By.xpath: //input[@id ='email']
+[INFO] 18-03-2024 11:09:48 [TestNG-PoolService-1] LogUtils - Set text 123456 on input By.xpath: //input[@id ='password']
+[INFO] 18-03-2024 11:09:48 [TestNG-PoolService-0] LogUtils - Set text 123456 on input By.xpath: //input[@id ='password']
+[INFO] 18-03-2024 11:09:48 [TestNG-PoolService-1] LogUtils - Click on element: By.xpath: //button[@type ='submit']
+[ERROR] 18-03-2024 11:09:48 [TestNG-PoolService-1] LogUtils - Fail: testLoginSuccess1is Fail
+[INFO] 18-03-2024 11:09:49 [TestNG-PoolService-0] LogUtils - Click on element: By.xpath: //button[@type ='submit']
+[INFO] 18-03-2024 11:09:49 [TestNG-PoolService-0] LogUtils - Success: testLoginSuccess1is successfully
+[INFO] 18-03-2024 11:09:49 [TestNG-PoolService-1] LogUtils - Screenshot taken: testLoginSuccess1
+[INFO] 18-03-2024 11:09:49 [TestNG-PoolService-1] LogUtils - Screenshot taken current URL: https://crm.anhtester.com/admin/authentication
+[INFO] 18-03-2024 11:09:49 [TestNG-PoolService-0] LogUtils - Screenshot taken: testLoginSuccess1
+[INFO] 18-03-2024 11:09:49 [TestNG-PoolService-0] LogUtils - Screenshot taken current URL: https://crm.anhtester.com/admin/
+[ERROR] 18-03-2024 11:09:50 [main] LogUtils - Fail: testLoginSuccess1is Fail
+[INFO] 18-03-2024 11:09:50 [main] LogUtils - Exception while taking screenshot: null
+[INFO] 18-03-2024 11:09:50 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 18-03-2024 11:11:26 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[INFO] 18-03-2024 11:11:28 [TestNG-PoolService-0] LogUtils - onTestStart: testLoginSuccess1
+[INFO] 18-03-2024 11:11:29 [TestNG-PoolService-0] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 18-03-2024 11:11:29 [TestNG-PoolService-0] LogUtils - Set text admin@example.com on input By.xpath: //input[@id ='email']
+[INFO] 18-03-2024 11:11:29 [TestNG-PoolService-0] LogUtils - Set text 123456 on input By.xpath: //input[@id ='password']
+[INFO] 18-03-2024 11:11:30 [TestNG-PoolService-0] LogUtils - Click on element: By.xpath: //button[@type ='submit']
+[INFO] 18-03-2024 11:11:30 [TestNG-PoolService-0] LogUtils - Success: testLoginSuccess1is successfully
+[INFO] 18-03-2024 11:11:30 [TestNG-PoolService-0] LogUtils - Screenshot taken: testLoginSuccess1
+[INFO] 18-03-2024 11:11:30 [TestNG-PoolService-0] LogUtils - Screenshot taken current URL: https://crm.anhtester.com/admin/
+[INFO] 18-03-2024 11:11:30 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 18-03-2024 11:16:09 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[INFO] 18-03-2024 11:16:11 [main] LogUtils - onTestStart: testLoginFromDataProviderExcelHashtable
+[ERROR] 18-03-2024 11:16:11 [main] LogUtils - Fail: testLoginFromDataProviderExcelHashtableis Fail
+[INFO] 18-03-2024 11:16:12 [main] LogUtils - Screenshot taken: testLoginFromDataProviderExcelHashtable
+[INFO] 18-03-2024 11:16:12 [main] LogUtils - Screenshot taken current URL: data:,
+[INFO] 18-03-2024 11:16:13 [main] LogUtils - onTestStart: testLoginFromDataProviderExcelHashtable
+[ERROR] 18-03-2024 11:16:13 [main] LogUtils - Fail: testLoginFromDataProviderExcelHashtableis Fail
+[INFO] 18-03-2024 11:16:14 [main] LogUtils - Screenshot taken: testLoginFromDataProviderExcelHashtable
+[INFO] 18-03-2024 11:16:14 [main] LogUtils - Screenshot taken current URL: data:,
+[INFO] 18-03-2024 11:16:15 [TestNG-PoolService-0] LogUtils - onTestStart: testLoginSuccess
+[INFO] 18-03-2024 11:16:16 [TestNG-PoolService-0] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 18-03-2024 11:16:16 [TestNG-PoolService-0] LogUtils - Set text admin@example.com on input By.xpath: //input[@id ='email']
+[INFO] 18-03-2024 11:16:16 [TestNG-PoolService-0] LogUtils - Set text 123456 on input By.xpath: //input[@id ='password']
+[INFO] 18-03-2024 11:16:17 [TestNG-PoolService-0] LogUtils - Click on element: By.xpath: //button[@type ='submit']
+[INFO] 18-03-2024 11:16:17 [TestNG-PoolService-0] LogUtils - Success: testLoginSuccessis successfully
+[INFO] 18-03-2024 11:16:17 [TestNG-PoolService-0] LogUtils - Screenshot taken: testLoginSuccess
+[INFO] 18-03-2024 11:16:17 [TestNG-PoolService-0] LogUtils - Screenshot taken current URL: https://crm.anhtester.com/admin/
+[INFO] 18-03-2024 11:16:18 [TestNG-PoolService-0] LogUtils - onTestStart: testLoginWithEmailInvalid
+[INFO] 18-03-2024 11:16:19 [TestNG-PoolService-0] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 18-03-2024 11:16:19 [TestNG-PoolService-0] LogUtils - Set text admin@example.com on input By.xpath: //input[@id ='email']
+[INFO] 18-03-2024 11:16:19 [TestNG-PoolService-0] LogUtils - Set text 1234567 on input By.xpath: //input[@id ='password']
+[INFO] 18-03-2024 11:16:19 [TestNG-PoolService-0] LogUtils - Click on element: By.xpath: //button[@type ='submit']
+[INFO] 18-03-2024 11:16:19 [TestNG-PoolService-0] LogUtils - Get text of element: By.xpath: //div[@id='alerts']is: Invalid email or password
+[INFO] 18-03-2024 11:16:19 [TestNG-PoolService-0] LogUtils - Success: testLoginWithEmailInvalidis successfully
+[INFO] 18-03-2024 11:16:19 [TestNG-PoolService-0] LogUtils - Screenshot taken: testLoginWithEmailInvalid
+[INFO] 18-03-2024 11:16:19 [TestNG-PoolService-0] LogUtils - Screenshot taken current URL: https://crm.anhtester.com/admin/authentication
+[INFO] 18-03-2024 11:16:21 [TestNG-PoolService-0] LogUtils - onTestStart: testLoginWithPasswordInvalid
+[INFO] 18-03-2024 11:16:21 [TestNG-PoolService-0] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 18-03-2024 11:16:21 [TestNG-PoolService-0] LogUtils - Set text admin@example.com on input By.xpath: //input[@id ='email']
+[INFO] 18-03-2024 11:16:21 [TestNG-PoolService-0] LogUtils - Set text 123456 on input By.xpath: //input[@id ='password']
+[INFO] 18-03-2024 11:16:21 [TestNG-PoolService-0] LogUtils - Click on element: By.xpath: //button[@type ='submit']
+[ERROR] 18-03-2024 11:16:21 [TestNG-PoolService-0] LogUtils - Fail: testLoginWithPasswordInvalidis Fail
+[INFO] 18-03-2024 11:16:22 [TestNG-PoolService-0] LogUtils - Screenshot taken: testLoginWithPasswordInvalid
+[INFO] 18-03-2024 11:16:22 [TestNG-PoolService-0] LogUtils - Screenshot taken current URL: https://crm.anhtester.com/admin/
+[INFO] 18-03-2024 11:16:23 [TestNG-PoolService-0] LogUtils - onTestStart: testLoginSuccess1
+[INFO] 18-03-2024 11:16:24 [TestNG-PoolService-0] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 18-03-2024 11:16:24 [TestNG-PoolService-0] LogUtils - Set text admin@example.com on input By.xpath: //input[@id ='email']
+[INFO] 18-03-2024 11:16:24 [TestNG-PoolService-0] LogUtils - Set text 123456 on input By.xpath: //input[@id ='password']
+[INFO] 18-03-2024 11:16:24 [TestNG-PoolService-0] LogUtils - Click on element: By.xpath: //button[@type ='submit']
+[INFO] 18-03-2024 11:16:24 [TestNG-PoolService-0] LogUtils - Success: testLoginSuccess1is successfully
+[INFO] 18-03-2024 11:16:24 [TestNG-PoolService-0] LogUtils - Screenshot taken: testLoginSuccess1
+[INFO] 18-03-2024 11:16:24 [TestNG-PoolService-0] LogUtils - Screenshot taken current URL: https://crm.anhtester.com/admin/
+[INFO] 18-03-2024 11:16:25 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 18-03-2024 11:26:13 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[INFO] 18-03-2024 11:26:17 [TestNG-PoolService-2] LogUtils - onTestStart: testLoginSuccess1
+[INFO] 18-03-2024 11:26:17 [TestNG-PoolService-1] LogUtils - onTestStart: testLoginSuccess1
+[INFO] 18-03-2024 11:26:17 [TestNG-PoolService-0] LogUtils - onTestStart: testLoginSuccess1
+[INFO] 18-03-2024 11:26:19 [TestNG-PoolService-2] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 18-03-2024 11:26:19 [TestNG-PoolService-1] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 18-03-2024 11:26:19 [TestNG-PoolService-0] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 18-03-2024 11:26:19 [TestNG-PoolService-2] LogUtils - Set text admin3@example.com on input By.xpath: //input[@id ='email']
+[INFO] 18-03-2024 11:26:19 [TestNG-PoolService-1] LogUtils - Set text admin@example.com on input By.xpath: //input[@id ='email']
+[INFO] 18-03-2024 11:26:19 [TestNG-PoolService-0] LogUtils - Set text admin@example.com on input By.xpath: //input[@id ='email']
+[INFO] 18-03-2024 11:26:19 [TestNG-PoolService-0] LogUtils - Set text 123456 on input By.xpath: //input[@id ='password']
+[INFO] 18-03-2024 11:26:19 [TestNG-PoolService-1] LogUtils - Set text 123456 on input By.xpath: //input[@id ='password']
+[INFO] 18-03-2024 11:26:19 [TestNG-PoolService-2] LogUtils - Set text 123456 on input By.xpath: //input[@id ='password']
+[INFO] 18-03-2024 11:26:20 [TestNG-PoolService-2] LogUtils - Click on element: By.xpath: //button[@type ='submit']
+[ERROR] 18-03-2024 11:26:20 [TestNG-PoolService-2] LogUtils - Fail: testLoginSuccess1is Fail
+[INFO] 18-03-2024 11:26:20 [TestNG-PoolService-2] LogUtils - Screenshot taken: testLoginSuccess1
+[INFO] 18-03-2024 11:26:20 [TestNG-PoolService-2] LogUtils - Screenshot taken current URL: https://crm.anhtester.com/admin/authentication
+[INFO] 18-03-2024 11:26:20 [TestNG-PoolService-0] LogUtils - Click on element: By.xpath: //button[@type ='submit']
+[INFO] 18-03-2024 11:26:20 [TestNG-PoolService-1] LogUtils - Click on element: By.xpath: //button[@type ='submit']
+[INFO] 18-03-2024 11:26:20 [TestNG-PoolService-1] LogUtils - Success: testLoginSuccess1is successfully
+[INFO] 18-03-2024 11:26:20 [TestNG-PoolService-0] LogUtils - Success: testLoginSuccess1is successfully
+[INFO] 18-03-2024 11:26:21 [TestNG-PoolService-1] LogUtils - Screenshot taken: testLoginSuccess1
+[INFO] 18-03-2024 11:26:21 [TestNG-PoolService-1] LogUtils - Screenshot taken current URL: https://crm.anhtester.com/admin/
+[INFO] 18-03-2024 11:26:21 [TestNG-PoolService-0] LogUtils - Screenshot taken: testLoginSuccess1
+[INFO] 18-03-2024 11:26:21 [TestNG-PoolService-0] LogUtils - Screenshot taken current URL: https://crm.anhtester.com/admin/
+[INFO] 18-03-2024 11:26:21 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 18-03-2024 16:11:32 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[WARN] 18-03-2024 16:11:33 [main] LogUtils - onTestSkipped: addNewCustomer
+[INFO] 18-03-2024 16:11:33 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 18-03-2024 16:11:54 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[WARN] 18-03-2024 16:11:55 [main] LogUtils - onTestSkipped: addNewCustomer
+[INFO] 18-03-2024 16:11:55 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 18-03-2024 16:15:34 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[ERROR] 18-03-2024 16:15:34 [main] LogUtils - Fail: addNewCustomeris Fail
+[INFO] 18-03-2024 16:15:34 [main] LogUtils - Exception while taking screenshot: null
+[INFO] 18-03-2024 16:15:34 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 18-03-2024 16:24:52 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[ERROR] 18-03-2024 16:24:52 [main] LogUtils - Fail: addNewCustomeris Fail
+[INFO] 18-03-2024 16:24:52 [main] LogUtils - Exception while taking screenshot: null
+[INFO] 18-03-2024 16:24:52 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 18-03-2024 16:28:24 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[ERROR] 18-03-2024 16:28:24 [main] LogUtils - Fail: addNewCustomeris Fail
+[INFO] 18-03-2024 16:28:24 [main] LogUtils - Exception while taking screenshot: null
+[INFO] 18-03-2024 16:28:24 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 18-03-2024 16:28:50 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[INFO] 18-03-2024 16:28:52 [main] LogUtils - onTestStart: addNewCustomer
+[INFO] 18-03-2024 16:28:53 [main] LogUtils - Open URL: https://crm.anhtester.com/admin/authentication
+[INFO] 18-03-2024 16:28:53 [main] LogUtils - Set text admin@example.com on input By.xpath: //input[@id ='email']
+[INFO] 18-03-2024 16:28:53 [main] LogUtils - Set text 123456 on input By.xpath: //input[@id ='password']
+[INFO] 18-03-2024 16:28:54 [main] LogUtils - Click on element: By.xpath: //button[@type ='submit']
+[INFO] 18-03-2024 16:28:54 [main] LogUtils - Click on element: By.xpath: //span[normalize-space()='Customers']
+[INFO] 18-03-2024 16:28:54 [main] LogUtils - Click on element: By.xpath: //a[normalize-space()='New Customer']
+[INFO] 18-03-2024 16:28:54 [main] LogUtils - Success: addNewCustomeris successfully
+[INFO] 18-03-2024 16:28:55 [main] LogUtils - Screenshot taken: addNewCustomer
+[INFO] 18-03-2024 16:28:55 [main] LogUtils - Screenshot taken current URL: https://crm.anhtester.com/admin/clients/client
+[INFO] 18-03-2024 16:28:55 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 18-03-2024 16:29:35 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[ERROR] 18-03-2024 16:29:36 [main] LogUtils - Fail: addNewCustomeris Fail
+[INFO] 18-03-2024 16:29:36 [main] LogUtils - Exception while taking screenshot: null
+[INFO] 18-03-2024 16:29:36 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 18-03-2024 16:30:18 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[ERROR] 18-03-2024 16:30:18 [main] LogUtils - Fail: addNewCustomeris Fail
+[INFO] 18-03-2024 16:30:18 [main] LogUtils - Exception while taking screenshot: null
+[INFO] 18-03-2024 16:30:18 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 18-03-2024 16:47:26 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[ERROR] 18-03-2024 16:47:26 [main] LogUtils - Fail: addNewCustomeris Fail
+[INFO] 18-03-2024 16:47:26 [main] LogUtils - Exception while taking screenshot: null
+[INFO] 18-03-2024 16:47:26 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
+[INFO] 18-03-2024 16:48:24 [main] LogUtils - **** FinalProjectSourseSelenium042023 ****
+[ERROR] 18-03-2024 16:48:25 [main] LogUtils - Fail: addNewCustomeris Fail
+[INFO] 18-03-2024 16:48:25 [main] LogUtils - Exception while taking screenshot: null
+[INFO] 18-03-2024 16:48:25 [main] LogUtils - onFinish: FinalProjectSourseSelenium042023
